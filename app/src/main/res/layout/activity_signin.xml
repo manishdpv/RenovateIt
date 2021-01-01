@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context="signin"
+    android:background="@drawable/bacground"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@android:color/white"
+            app:met_maxCharacters="11"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            android:inputType="phone"
+            android:textSize="34sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Phone Number"
+            android:id="@+id/edtPhone"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@android:color/white"
+            app:met_maxCharacters="11"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            android:inputType="textPassword"
+            android:textSize="34sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Password"
+            android:id="@+id/edtPassword"/>
+
+    </LinearLayout>
+
+    <Button android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/white"
+        android:text="Sign In"
+        android:id="@+id/btnSignIn"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

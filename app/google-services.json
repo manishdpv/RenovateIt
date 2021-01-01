@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "827963930498",
+    "firebase_url": "https://renovateit-71bfd.firebaseio.com",
+    "project_id": "renovateit-71bfd",
+    "storage_bucket": "renovateit-71bfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827963930498:android:1f0493d6eff1911235419b",
+        "android_client_info": {
+          "package_name": "com.groupproject.RenovateIt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827963930498-dq08p40feve620ks65inl9jljqdr29o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.groupproject.RenovateIt",
+            "certificate_hash": "ce32763ce76bb636c2f47f53371a5697c5ecc29c"
+          }
+        },
+        {
+          "client_id": "827963930498-rvuiqbvqcjesclaehe2gugaoog0054hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIDK0OQfBZ4af238TffEeqiV-EmM8QHtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827963930498-rvuiqbvqcjesclaehe2gugaoog0054hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
